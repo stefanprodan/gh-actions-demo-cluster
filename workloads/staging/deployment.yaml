@@ -1,3 +1,4 @@
+---
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -26,7 +27,7 @@ spec:
     spec:
       containers:
       - name: podinfod
-        image: stefanprodan/myapp:master-ae93ba7
+        image: stefanprodan/myapp:master-a59e0ba
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 9898
