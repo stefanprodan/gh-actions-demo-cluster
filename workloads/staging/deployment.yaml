@@ -27,7 +27,7 @@ spec:
     spec:
       containers:
       - name: podinfod
-        image: stefanprodan/myapp:master-a59e0ba
+        image: stefanprodan/myapp:master-5a872e3
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 9898
