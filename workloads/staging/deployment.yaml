@@ -9,7 +9,7 @@ metadata:
     flux.weave.works/tag.podinfod: glob:master-*
     flux.weave.works/automated: 'true'
 spec:
-  replicas: 5
+  replicas: 1
   strategy:
     rollingUpdate:
       maxUnavailable: 0
