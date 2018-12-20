@@ -10,7 +10,7 @@ metadata:
     flux.weave.works/tag.podinfod: semver:~0.0
     flux.weave.works/automated: 'true'
 spec:
-  replicas: 2
+  replicas: 1
   strategy:
     rollingUpdate:
       maxUnavailable: 0
