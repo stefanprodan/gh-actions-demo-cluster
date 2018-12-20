@@ -5,6 +5,9 @@ metadata:
   namespace: staging
   labels:
     app: podinfo
+  annotations:
+    flux.weave.works/tag.podinfod: glob:master-*
+    flux.weave.works/automated: 'true'
 spec:
   replicas: 5
   strategy:
